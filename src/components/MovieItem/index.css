@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.thumbnail {
+  width: 215px;
+  height: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (min-width: 1200px) {
+  .thumbnail {
+    width: 250px;
+    height: 170px;
+  }
+}
+
+.poopupContent {
+  background-color: #ffffff;
+  width: 750px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.closeButton {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 28px;
+  border: none;
+  margin-top: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.moviePlayerContainer {
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
